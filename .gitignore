@@ -2,3 +2,5 @@
 data/
 solutions/
 model_weights/
+.env/
+env/
