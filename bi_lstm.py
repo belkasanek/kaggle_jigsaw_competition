@@ -4,7 +4,6 @@ import numpy as np
 import pandas as pd
 
 import tensorflow as tf
-
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras.layers import Dense, Input, LSTM, Bidirectional, Embedding, concatenate, SpatialDropout1D
