@@ -4,3 +4,5 @@
 |Best score|My best score|place on the leaderboard| 
 |---|---|---|
 |0.9885|0.9866| top 5%|
+### Update
+Tried simple model based on Bert: concatenate last 3 pooled hidden-state layers processed by a Linear layer and Sigmoid activation function. The best score is 0.971. It is below result of Logistic Regression on TF-IDF data. 
